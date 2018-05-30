@@ -3,7 +3,7 @@
  * Modify as needed, and rename this file to conf-local.inc.
  */
 // The main URL you want to proxy.
-Conf::$default_upstream_base_url = '';
+Conf::$default_upstream_base_url = 'https://www.google.com.hk';
 // Third party hosts which should also be proxied (eg example.com).
 TextExternalUrlFilters::addHosts(
 	array(
